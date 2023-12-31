@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+/* BACKGROUND */
+/* body{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    padding: 20px;
+} */
+
+/* TITLE */
+h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: black;
+    /* padding-top: 100px; */
+    text-underline-offset: 5px;
+    font-style: italic;
+    padding-top: 100px;
+    padding-bottom: 2px;
+}
+
+/* CLOUD ENGINEER */
+.cloude{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* CONTACT LIST TOP & BOTTOM (BT)*/
+
+/* Styles for the separator */
+.separator {
+    display: inline-block;
+    margin: 0 5px; /* Adjust spacing as needed */
+    color: black; /* Color of the separator */
+}
+
+.contact {
+    list-style-type: none;
+    padding-top: -70px;
+    margin-top: -20px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: small !important;
+
+}
+
+
+.contact li {
+    /* Your default styles */
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    display: inline;
+}
+
+.contact li:hover {
+    color: navy; /* Text color on hover */
+    background-color: rgba(217, 217, 217, 0.522); /* Lighter grey with adjusted alpha */
+    transform: translateY(-3px); /* Move the element upward by 3 pixels on hover */
+}
+
+.contactbt{
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-size: small !important;
+}
+
+.contactbt li:hover{
+    color: navy;
+    background-color: rgba(217, 217, 217, 0.522);
+    transform: translateY(-3px);
+}
+.contactbt>li{
+    display: inline;
+    transition: color 0.3s ease, background-color 0.3s ease, fransform 0.2s ease;
+}
+
+
+
+
+p{
+    color: darkslategray;
+    margin: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* SKILLS SECTION */
+
+h2.subsection {
+    font-size: 25px;
+    background-color: navy;
+    
+    color:white;
+    text-align: center;
+    position: relative;
+    line-height: 2; /* Ensure minimal line height for accurate positioning */
+    margin: 10px;
+}
+
+
+
+
+h3{
+    color:black;
+    font-size: large;
+    text-decoration: underline;
+}
+
+h4{
+    color: navy;
+    font-size: medium;
+    margin-top: -8px;
+    margin-bottom: 20px;
+}
+
+ul{
+    color: darkslategray;
+    font-size: small;
+    list-style-type: none;
+    margin-left: -40px;
+    margin-top: -15px;
+}
+
+
+
+li{
+    padding: 2px;
+}
+
+.container{
+    display: flex;
+    margin: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px
+    
+}
+
+section{
+    flex: 1;
+}
+
+.coreskill{
+    /* padding-left: 250px; */
+    width: -100px;
+}
+
+.exp{
+    margin: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.role{
+    color: black;
+    font-size: x-small;
+    padding-left: 5px;
+}
+
+.job{
+    font-size: medium;
+}
+.dateb{
+    color: black;
+    font-size: x-small;
+    margin-left:800px ;
+   
+}
+
+.datea{
+    color: black;
+    font-size: x-small;
+    margin-left:738px ;
+   
+}
+
+.datest{
+    color: black;
+    font-size: x-small;
+    margin-left:747px ;
+   
+}
+
+
+
+
+.expd{color: darkslategray;
+font-size:small;
+margin-left: -20px;
+margin-top: -15px;
+list-style: disc;
+padding-right: 10px;
+}
+
+.projects{
+        margin: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+.hs{
+    color:navy;
+    font-size: medium;
+    text-decoration: none;
+    margin: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.certs{
+    font-size: medium;
+    color: darkslategray;
+    list-style: disc;
+    margin: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.prod{
+    color: navy;
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+.prodlist{
+    list-style:inside;
+    font-size: small;
+    padding-right: 10px;
+
+}
+
+
